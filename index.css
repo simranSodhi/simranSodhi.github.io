@@ -1,0 +1,44 @@
+.header>h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-item{
+    width: 80%;
+    box-shadow: 0 0 4px 1px lightgray;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+
+.nav-link{
+    display: none;
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+@media only screen and (max-width: 500px)  {
+    .nav-link{
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        display: block;
+    }
+}
